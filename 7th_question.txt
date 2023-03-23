@@ -1,0 +1,3 @@
+Do you have any hobby projects? If so, what’s your favorite?
+
+> yes, i am currently working on mobile application architecture for developing a solution for small firms to manage there inventory and sales.

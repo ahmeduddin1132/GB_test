@@ -1,0 +1,19 @@
+Have you ever caused a production outage? Tell us about it! If you haven’t, tell us about a time that you changed something that had unintended consequences, how you discovered it was a problem, and what you learned from the experience.
+
+
+Yes in my recent project at playstation, i was working on QA ticket to update python version and all the libraries required by automation framework in CI/CD process. 
+
+The requirement to update all libraries was crucial since we need to test out an important feature on mobile application using latest selenium before the deadline.
+
+I have updated the python version and all libraries to latest everything working fine on local machine.
+
+My PR got approved by my colleges since i shared my successfull tests on the change.
+
+However, when i merged my PR to master branch all pipeline started to fail on automation stage and all production pipeline was failing leading to HOLD the release process.
+
+The issue was selenium was not able to create driver instance it was failing on URLLIB3 library.
+
+After some time debugging i discover the latest urllib3 has a function lacking on creating connections on PROXY.
+
+I had to manually patch the library to add function in the library to support proxy connection.
+

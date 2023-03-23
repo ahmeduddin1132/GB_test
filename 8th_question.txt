@@ -1,0 +1,21 @@
+    8. How would you rate yourself on a scale from 1 to 10 in the following domains?
+
+1 	à 	Never heard of it
+	…
+10 	à 	I could write a whitepaper on it
+
+    • Linux: 9
+    • Python: 8
+    • Go: 5
+    • Docker: 8
+    • Networking: 8
+    • Observability: 9
+    • AWS Security: 7
+    • AWS VPCs: 8
+    • AWS ECS: 5
+    • AWS EC2: 9
+    • AWS Serverless: 9
+    • Terraform: 7
+    • CloudFormation: 6
+    • git: 10
+    • GitLab:  8

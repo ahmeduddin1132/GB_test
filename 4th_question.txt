@@ -1,0 +1,7 @@
+Containers are a popular method of packaging and deploying software applications. The primary purpose of containers is to provide a lightweight, portable, and consistent environment for applications to run in.
+
+Containers allow developers to package their applications along with all the required dependencies, libraries, and configurations, into a single package that can be easily moved between environments, such as development, testing, staging, and production. This ensures that the application runs consistently across all environments, reducing the likelihood of errors or issues caused by differences in the underlying infrastructure.
+
+Another benefit of containers is their scalability. Containers can be easily replicated and distributed across multiple hosts or nodes, allowing applications to scale horizontally, as traffic and demand increase. Containers also consume fewer resources than traditional virtual machines, making them more cost-effective.
+
+In summary, the main point of containers is to provide a reliable, consistent, and scalable environment for applications to run in, while also reducing the complexity and overhead of managing infrastructure.

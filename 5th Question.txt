@@ -1,0 +1,17 @@
+The platform's availability can be calculated by dividing the number of successful user requests by the total number of user requests over a specific period.
+
+In this scenario, the platform's capacity has been reduced by half, from 100k to 50k users, due to a partial network outage. Therefore, the platform's availability is also reduced by half, as it can now only support 50k users instead of 100k users.
+
+Assuming that the 10k users online are successfully able to use the platform without any issues, we can calculate the platform's availability as follows:
+
+Availability = (Successful user requests / Total user requests) * 100%
+
+Since there are 10k users online and the platform's capacity is 50k users, the total number of user requests that can be served by the platform is 10k. Therefore, the platform's availability can be calculated as:
+
+Availability = (10,000 / 10,000) * 100%
+Availability = 100%
+
+Based on this calculation, the platform's availability is still 100%, despite the partial network outage and reduced capacity. This is because the current number of users online (10k) is well within the reduced capacity of the platform (50k), and therefore, all user requests are being served successfully.
+
+However, if the number of users online exceeds the reduced capacity of the platform, users may experience issues such as slow performance or timeouts, which would impact the platform's availability.
+
